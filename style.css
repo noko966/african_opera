@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.ico1{
+    background-image: url(iamges/sports/ic_1.png);
+}
+.ico2{
+    background-image: url(iamges/sports/ic_2.png);
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color:#111821;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.tar{
+    text-align: right;
+}
+.line_height{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+}
+
+/*modifiers*/
+.d-flex{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+.d-flex-col{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+.al-cen{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.f-grow{
+    min-width: 1px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.fj-end{
+    -webkit-box-pack:end;
+    -ms-flex-pack:end;
+    justify-content:flex-end;
+}
+.fj-between{
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+}
+.fj-center{
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+}
+
+/*paddings*/
+.pad-5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pad-8{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.pad-16{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mar-b-8{
+    margin-bottom: 8px;
+}
+
+/*layout*/
+/*header*/
+.header{
+    height: 46px;
+}
+.header__logo{
+    width: 82px;
+    height: 16px;
+    background-image: url('iamges/jb_logo.jpg');
+}
+.header__link{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+.header__link-reg{
+    color:#eb3944;
+    margin-right: 16px;
+}
+.nav_menu_space{
+    width: 3px;
+}
+.nav_menu_item{
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    flex: 0 0 49%;
+}
+.nav_menu_item_bch{
+    background-color: #eb3944;
+}
+.nav_menu_item_bsl{
+    background-color: #00912c;
+}
+
+.home_category{
+    background-color: #c8c8c8;
+    color: #111821;
+    height: 36px;
+}
+.home_category_game{
+    background-color: #eb3944;
+    color: #fff;
+    height: 36px;
+}
+.ico{
+    width: 24px;
+    height: 24px;
+}
+/*one game*/
+.home_one_game{
+    padding: 8px 4px;
+    color: #fff;
+    background-color: #314257;
+    border-bottom: 1px solid #fff;
+}
+.home_one_game_left{
+    font-size: 13px;
+}
+.home_one_game_time{
+    color:#979797;
+    font-size: 12px;
+}
+.home_one_game_score{
+    width: 25px;
+    text-align: right;
+    color: #eb3944;
+    margin-right: 10px;
+}
+.home_one_game_right{
+    width: 160px;
+}
+.home_championship_heading{
+    height: 18px;
+    background-color: #111821;
+    color:#fff;
+}
+.odd{
+    width: 52px;
+    height: 46px;
+    margin: 0 1px;
+    background-color: #152c4a;
+    color:#fff;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 3px;
+}
+.home_one_game_header{
+    height: 36px;
+    background-color: #314257;
+    color:#a8a9ab;
+    padding-left:16px;
+    padding-right:4px;
+}
+.home_one_game_header_odd{
+    width: 52px;
+    margin: 0 1px;
+    
+}
+
+
