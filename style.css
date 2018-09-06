@@ -19,10 +19,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 .ico1{
-    background-image: url(iamges/sports/ic_1.png);
+    background-image: url(images/sports/ic_1.png);
 }
 .ico2{
-    background-image: url(iamges/sports/ic_2.png);
+    background-image: url(images/sports/ic_2.png);
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -139,7 +139,7 @@ a{
 .header__logo{
     width: 82px;
     height: 16px;
-    background-image: url('iamges/jb_logo.jpg');
+    background-image: url('images/jb_logo.jpg');
 }
 .header__link{
     text-transform: uppercase;
