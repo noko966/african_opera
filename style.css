@@ -24,6 +24,9 @@ time, mark, audio, video {
 .ico2{
     background-image: url(images/sports/ic_2.png);
 }
+.ico_ref_black{
+    background-image: url(images/sports/refresh_dark.png);
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -146,9 +149,9 @@ a{
     height: 46px;
 }
 .header__logo{
-    width: 82px;
-    height: 16px;
-    background-image: url('images/jb_logo.jpg');
+    width: 80px;
+    height: 14px;
+    background-image: url('images/jb_logo.png');
 }
 .header__link{
     text-transform: uppercase;
