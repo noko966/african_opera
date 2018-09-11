@@ -59,6 +59,12 @@ a{
 .tar{
     text-align: right;
 }
+.tal{
+    text-align: left;
+}
+.up_case{
+    text-transform:uppercase;
+}
 .line_height{
     display:-webkit-box;
     display:-ms-flexbox;
@@ -130,6 +136,9 @@ a{
 .mar-b-8{
     margin-bottom: 8px;
 }
+.mar-r-8{
+    margin-right: 8px;
+}
 
 /*layout*/
 /*header*/
@@ -159,7 +168,9 @@ a{
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    flex: 0 0 49%;
+    flex: 0 0 50%;
+    border-left: 2px solid #111821;
+    border-right: 2px solid #111821;
 }
 .nav_menu_item_bch{
     background-color: #eb3944;
@@ -210,6 +221,13 @@ a{
     background-color: #111821;
     color:#fff;
 }
+.home_championship_heading--general{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 18px;
+    background-color: #111821;
+    color:#fff;
+}
 .odd{
     width: 52px;
     height: 46px;
@@ -230,7 +248,73 @@ a{
 .home_one_game_header_odd{
     width: 52px;
     margin: 0 1px;
-    
+}
+.icon_nav{
+    flex-wrap: wrap;
 }
 
+.icon_nav_item{
+    width: 25%;
+    padding: 5px 0;
+    background-color: #314257;
+    color: #fff;
+    margin-bottom: 3px;
+}
+.icon_nav_more{
+    background-color: #314257;
+    height: 32px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+/*events page*/
+.nav_menu_item_sub{
+    flex-grow:1;
+}
+.nav_menu_item_sub{
+    text-transform: uppercase;
+    color:#fff;
+}
+.nav_menu_item_sub--active{
+    color:#eb3944;
+}
+
+/*tournament*/
+.tournament_nav{
+    background-color: #fff;
+    padding: 4px 2px;
+}
+.tournament_nav_item{
+    background-color: #314257;
+    color: #fff;
+    height: 44px;
+    margin: 0 2px;
+    flex: 1 1 50%;
+}
+.tournament_nav_item--active{
+    background-color: #f4a629;
+    color: #000;
+}
+.tournament_list_h1{
+    background-color: #111821;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 36px;
+}
+.tournament_list_item{
+    background-color: #c8c8c8;
+    color:#111821;
+    height: 36px;
+    border-bottom: 1px solid #fff;
+}
+.last{
+    border-bottom: 0;
+}
+.tournament_list_collapsable{
+    background-color: #314257;
+    color:#fff;
+    height: 36px;
+    border-bottom: 1px solid #eb3944;
+}
 
